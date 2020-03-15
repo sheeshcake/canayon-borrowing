@@ -6,7 +6,7 @@
 			$unit_name = $_GET['unit_name'];
 			$unit_count = $_GET['unit_count'];
 			$unit_brand = $_GET['unit_brand'];
-			$unit_price = $_GET['unit_price'];
+	
 			$sql = "UPDATE equipment SET unit_count=$unit_count,unit_name='$unit_name',unit_brand='$unit_brand',unit_price='$unit_price' WHERE equipment.unit_id = " . $_GET['unit_id'];
 			$result = mysqli_query($conn,$sql);
 			$_SESSION['message'] = "UPDATED SUCCESSFULLY!!";

@@ -40,7 +40,6 @@
       <li><a href="?open=pinned_request">Pinned Request</a></li>
       <li><a href="?open=reservations">Reservations</a></li>
       <li><a href="?open=manage">Manage Equipment</a></li>
-      <li><a href="?open=register">Register Students</a></li>
       <li><a href="controller/logout.php" style="color: red">Logout</a></li>
     </ul>
   </form>

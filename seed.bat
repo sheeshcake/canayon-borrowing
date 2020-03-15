@@ -11,6 +11,3 @@ IF "%variable%"=="y" (
 	)
 echo Database Seed Success!!
 pause
-
-
-

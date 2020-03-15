@@ -42,9 +42,7 @@
 <script> 
     function row() { 
 	    var MyTable = document.getElementById("table");
-	    var NewRow = MyTable.insertRow(1);  
-	    // insert new row. 
-	    // NewRow.innerHTML("<tr><td>none</td><td><input></td></tr>");
+	    var NewRow = MyTable.insertRow(1);
 	    var id = NewRow.insertCell(0); 
 	    var name = NewRow.insertCell(1);
 	    var brand = NewRow.insertCell(2); 
